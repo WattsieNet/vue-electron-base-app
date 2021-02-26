@@ -1,0 +1,47 @@
+{
+  "vueVersion": "3",
+  "bare": true,
+  "useConfigFiles": true,
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-typescript": {
+            "classComponent": true,
+            "useTsWithBabel": true
+        },
+        "@vue/cli-plugin-router": {
+            "historyMode": false
+        },
+        "@vue/cli-plugin-vuex": {},
+        "@vue/cli-plugin-eslint": {
+            "config": "base",
+            "lintOn": []
+        },
+        "@vue/cli-plugin-unit-mocha": {},
+        "@vue/cli-plugin-e2e-cypress": {},
+        "vue-cli-plugin-moment": {
+            "locales": "en"
+        },
+        "vue-cli-plugin-fontawesome": {},
+        "vue-cli-plugin-tailwind": {
+            "version": "v2.0.6",
+            "initConfig": "minimal"
+        },
+        "vue-cli-plugin-electron-builder": {
+            "version": "latest",
+            "electronBuilder": {
+                "electronVersion": "^11.0.0"
+            }
+        },
+        "vue-cli-plugin-i18n": {
+            "version": "^2.0.0-beta.1",
+            "locale": "en",
+            "fallbackLocale": "en",
+            "localeDir": "locales",
+            "enableLegacy": true
+        }
+  },
+  "cssPreprocessor": "dart-sass",
+  "configs": {
+    "vue": {}
+  }
+}

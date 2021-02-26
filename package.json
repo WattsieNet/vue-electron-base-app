@@ -1,0 +1,7 @@
+{
+  "name": "@wattsienet/vue-electron-base-app",
+  "version": "0.1.0",
+  "description": "A Vue CLI 3 preset",
+  "author": "Wattsie <wattsie@gmail.com>",
+  "license": "MIT"
+}
